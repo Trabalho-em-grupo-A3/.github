@@ -12,3 +12,12 @@
 - [ ] Entrega 3: Junit,  Metrics e Coverage.
 - [ ] Entrega 4: Implementação do projeto
 - [ ] Entrega 5: Apresentação.
+
+
+### 🛠 Tecnologias utilizadas
+- [Git](https://git-scm.com/)
+- [Eclipse](https://www.eclipse.org/downloads/)
+- [JUinit](https://junit.org/junit5/)
+- [Mattermost](http://mattermost.jeanpaullopes.pro.br:8065/login)
+- [Java](https://www.java.com/pt-BR/)
+  
