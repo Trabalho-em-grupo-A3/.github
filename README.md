@@ -1,10 +1,10 @@
-<h1 align="center">Projeto CRUD</h1>
+<h1 align="center">Sistema de Academia</h1>
 
 <h2 align="center"> 
 	🚧  Projeto  em construção...  🚧
 </h2>
 
-<h3> implementar um pequeno sistema CRUD no padrão MVC com no mínimo 10 classes. </h3>
+<h3> <p align="center">Este projeto é um sistema desenvolvido para gerenciamento de academias.</p> </h3>
 
  <h3> Repositórios: </h3> 
  
@@ -13,6 +13,14 @@
 - [ ] Entrega 4: Implementação do projeto
 - [ ] Entrega 5: Apresentação.
 
+### Features
+
+- [ ] Cadastro de usuário
+- [ ] Cadastro de cliente
+- [ ] Cadastro de aulas
+- [ ] Sistema de inatividade
+- [ ] Calculo de valor de mensalidade
+- [ ] Programação de manutenções periódicas
 
 ### 🛠 Tecnologias utilizadas
 - [Git](https://git-scm.com/)
