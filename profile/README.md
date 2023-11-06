@@ -18,9 +18,7 @@
 - [ ] Cadastro de usuário
 - [ ] Cadastro de cliente
 - [ ] Cadastro de aulas
-- [ ] Sistema de inatividade
-- [ ] Calculo de valor de mensalidade
-- [ ] Programação de manutenções periódicas
+
 
 ### 🛠 Tecnologias utilizadas
 - [Git](https://git-scm.com/)
