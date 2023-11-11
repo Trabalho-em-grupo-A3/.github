@@ -68,8 +68,8 @@ O script de criação das tabelas necessárias estão dentro do projeto na pasta
 
 
 ### 🛠 Tecnologias utilizadas
- [Git](https://git-scm.com/)</p>
- [Intellij](https://www.jetbrains.com/idea/)</p>
- [JUinit](https://junit.org/junit5/)</p>
- [Mattermost](http://mattermost.jeanpaullopes.pro.br:8065/login)</p>
- [Java](https://www.java.com/pt-BR/) </p>
+ [Git](https://git-scm.com/)  
+ [Intellij](https://www.jetbrains.com/idea/)  
+ [JUinit](https://junit.org/junit5/)   
+ [Java](https://www.java.com/pt-BR/)  
+ [Oracle BD](https://www.oracle.com/br/database/)  
