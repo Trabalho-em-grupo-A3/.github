@@ -4,28 +4,72 @@
 	🚧  Projeto  em construção...  🚧
 </h2>
 
-<h3> <p align="center">Este projeto é um sistema desenvolvido para gerenciamento de academias.</p> </h3>
+## Descrição do Projeto
+<p> Este projeto é um sistema desenvolvido para gerenciamento de academias </p>
+<p> O sistema possui cinco funcionalidades básicas: </p>
 
- <h3> Repositórios: </h3> 
+ - [x] Cadastrar alunos
+ - [x] Cadastrar instrutor
+ - [x] Cadastrar aulas 
+ - [x] Agendar aulas
+ - [x] Mostrar agendamento
+
+## Funcionalidades básicas
+1 - Cadastrar alunos:
+- O usuário do sistema deve ser capaz de registrar um novo aluno no banco de dados.  
+   Após o cadastro ter sido realizado é possivel, ainda, atualizar ou remover este aluno da base. 
+
+2 - Cadastrar instrutores:
+- O usuário do sistema também deve ser capaz de registrar um novos instrutores no banco de dados.  
+ Um instrutor pode estar associado a uma ou mais aulas.
+
+3 - Cadastrar aula:
+- O usuário do sistema também deve ser capaz de registrar novas aulas no banco de dados da academia.  
+ Uma aula pode estar associada a um ou mais instrutores.
+  
+4 - Agendar aulas:
+- O usuário do sistema deve ser capaz de realizar o agendamento de uma aula para determinado aluno, bastando que este aluno esteja matriculado no sistema da academia.  
+ Um aluno pode estar agendado para uma ou mais aulas, mas nunca no mesmo dia e horário.
+
+5 - Mostrar agendamentos:
+- O aluno deve ser capaz de visualizar seus agendamentos.  
+ Uma vez agendado para uma aula, ele será capaz de ver as seguintes informações: "MATRICULA, NOME, DIA_HORARIO_AGENDADO, NOME_AULA, NOME_INSTRUTOR".
+  
+
+
+ ## Pré-requisitos
+
+ Java 8 ou superior
+ Oracle (ou outro banco de dados de sua escolha)
+ Maven para construção
+
+### 🎲 Configuração do Banco de Dados
+
+Necessário criar um banco de dados local com as seguintes configurações:
  
-- [x] Entrega 2: Plano e roteiro de testes.
-- [ ] Entrega 3: Junit,  Metrics e Coverage.
-- [ ] Entrega 4: Implementação do projeto
-- [ ] Entrega 5: Apresentação.
+ Credenciais
+ ``` 
+driver = "oracle.jdbc.OracleDriver";
+caminho = "jdbc:oracle:thin:@localhost:1521:xe";
+usuario = <Usuario do seu banco local>;
+senha = <Senha do seu banco local>;
+ ```
 
-### Features
+ Tabelas
+ ``` 
+TB_AULA
+TB_ALUNO
+TB_INSTRUTOR
+TB_AGENDAMENNTO_AULA
+ ```
+###  Querys DDL para criação do banco de dados:
+O script de criação das tabelas necessárias estão dentro do projeto na pasta "src/main/resources", no arquivo: "Create_Tables_Academia.sql".
 
-- [ ] Cadastro de usuário
-- [ ] Cadastro de cliente
-- [ ] Cadastro de aulas
-- [ ] Sistema de inatividade
-- [ ] Calculo de valor de mensalidade
-- [ ] Programação de manutenções periódicas
+
 
 ### 🛠 Tecnologias utilizadas
-- [Git](https://git-scm.com/)
-- [Eclipse](https://www.eclipse.org/downloads/)
-- [JUinit](https://junit.org/junit5/)
-- [Mattermost](http://mattermost.jeanpaullopes.pro.br:8065/login)
-- [Java](https://www.java.com/pt-BR/)
-  
+ [Git](https://git-scm.com/)  
+ [Intellij](https://www.jetbrains.com/idea/)  
+ [JUinit](https://junit.org/junit5/)   
+ [Java](https://www.java.com/pt-BR/)  
+ [Oracle BD](https://www.oracle.com/br/database/)  
